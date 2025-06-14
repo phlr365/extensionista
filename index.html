@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciparques - Avalie os parques da cidade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Reciparques</h1>
+        <p>Avalie e descubra os melhores parques de Recife!</p>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="park-search" placeholder="Busque por nome ou localização...">
+            <button id="search-btn">Buscar</button>
+        </section>
+
+        <section class="parks-list">
+            <!-- Os parques serão carregados aqui pelo JavaScript -->
+        </section>
+
+        <section class="add-park">
+            <h2>Não encontrou o parque?</h2>
+            <button id="add-park-btn">Procurar por nome.</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Reciparques - avalie e descubra os melhores parques de Recife!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
